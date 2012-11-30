@@ -23,9 +23,9 @@ Usage:
 $imgTool = new GDesire();
 
 $imgTool->load('path_to_my_image.png')
-    ->intelliCrop()           //Crop external area of a image
-    ->resize(200,200)         //Resize it to 200x200 (if aspect ratio is preserved for this)
-    ->save('img.png')         //Save a first version
-    ->greize()                //GreyScale 
-    ->save('grey_img.png')    //Save a second greyscale version
-    ->kill(true);             //Delete the original one path_to_my_image.png
+->intelliCrop()           //Crop external area of a image
+->resize(200,200)         //Resize it to 200x200 (if aspect ratio is preserved for this)
+->save('img.png')         //Save a first version
+->greize()                //GreyScale 
+->save('grey_img.png')    //Save a second greyscale version
+->kill(true);             //Delete the original one path_to_my_image.png
